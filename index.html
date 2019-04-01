@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Page Title</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!--google fonts-->
+  <link href="https://fonts.googleapis.com/css?family=Playfair+Display+SC|Fredericka+the+Great" rel="stylesheet">
+  <!--Devicon Icons-->
+  <link rel="stylesheet"
+    href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <!--Bootstrap-->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+    integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+  <!--CSS-->
+  <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+  <!--Firebase-->
+  <script src="https://www.gstatic.com/firebasejs/5.8.3/firebase.js"></script>
+
+</head>
+
+<body>
+
+  <!--this is my navigation bar that holds all directory of my portfolio-->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="indexx.html">Luis Vega</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="#thirdScreen">Portfolio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#fourthScreen">Contact Me</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!--infinite page effect.-->
+  <div class=infinite>
+
+
+
+    <!--Header for my page-->
+    <div class="header">
+      <h1 class="Name>">Luis Vega</h1>
+      <p class="title">Full Stack Web Developer</p>
+    </div>
+
+    <!-- Image of me on the home page.-->
+    <div class="Avatar">
+      <img src="file:///Users/luisvega/Desktop/IMG_0965%202.jpeg" class="Avatar" style="width:300px">
+    </div>
+  </div>
+  </div>
+
+
+  <!--About Me -->
+  <div id="secondScreen">
+    <p class="text-center">About Me.</p>
+    <div class="aboutMe">
+      <h4> Hello, my name is Luis Vega! I am full stack developer looking to be part of creative,
+        driven, and hard working team striving to create extraordinary objects.
+        A passion to learn new things and to understand the ins and outs
+        of things i do not understand at first. I have expierience in HTML:5, CSS, JAVASCRIPT, JQUERY, NODE.JS,
+        and have worked with frameworks such Bootstrap and Materialize. I know there is so much more
+        to learn and I cannot wait to get started and absorb as much as possible!
+      </h4>
+    </div>
+  </div>
+  </div>
+
+  <!--ballon girl-->
+  <div class="balloon">
+    <img src="file:///Users/luisvega/Desktop/2714942_0.jpg">
+  </div>
+
+
+  <!--portfolio-->
+  <div id="thirdScreen">
+    <div class="flex-container">
+      <p class="text-center"> My Work.</p>
+    </div>
+    <!--cards for portfolio-->
+    <div class="container">
+
+      <div class="row">
+
+
+        <div class="card" style="width: 17rem;">
+          <div class="card-body">
+            <h5 class="card-title">Tasty Maps.</h5>
+            <p class="card-text">Tasty Maps is the first team project I had the privilage to participate
+              in. Tasty Maps allows the user to request and recieve top restaurants along as the weather, and fun
+              facts about the area which they are in. With the use of multiple API's we were able to create this
+              fun app. Click the link and try it out. :)
+            </p>
+            <a href="https://mochacosine1206.github.io/teamProject1/" class="btn btn-primary black">MAPPY.</a>
+          </div>
+        </div>
+
+
+        <div class="card" style="width: 17rem;">
+          <div class="card-body">
+            <h5 class="card-title">Bamazon Store Front.</h5>
+            <p class="card-text">With Bamazon you can choose from a variety of product in stock. Bamazon is a node.js
+              application built with a MySQL database that updates
+              with every purchase. Users are able to select the product by id and and select the quantity to check out.
+              Had alot of fun developing this one. Click on
+              the link and give it a look.
+            </p>
+            <a href="https://github.com/luisvega7/BAMAZON" class="btn btn-primary black center">Bamazon</a>
+          </div>
+        </div>
+
+
+        <div class="card" style="width: 17rem;">
+          <div class="card-body">
+            <h5 class="card-title"> NBA Friend Finder.</h5>
+            <p class="card-text">Have you ever wondered which professional basketball player you relate to the most? My
+              NBA friend finder was designed
+              with that specific thought in mind. A full stack app built with bootstrap, javascript, in-house API's,
+              express. and node.js. By answering
+              a survey and functions that calculate the difference between the answers provided and pre-set answers of
+              the current NBA players. See who
+              is your NBA counter part by clicking the button and taking the survey!
+            </p>
+            <a href="https://nba-friend-finder.herokuapp.com/" class="btn btn-primary black">Friend Finder.</a>
+          </div>
+        </div>
+
+        <div class="card" style="width: 17rem;">
+          <div class="card-body">
+            <h5 class="card-title">Liri-Bot.</h5>
+            <p class="card-text"> Liri-Bot is Siri's distant helpful cousin. Through the use of API's we are
+              able to use LIRI to spotify-this by inputting the name of a song it will return the details of
+              the song we have searched. Other features like concer-this , and movie-this users are able to
+              retrieves information about bands on tours or movies that are in theaters or any movie available online.
+            </p>
+            <a href="https://github.com/luisvega7/NODE-HOMEWORK" class="btn btn-primary black">Liri-Bot.</a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+  </div>
+  </div>
+
+
+
+
+
+  <!-- Contact Form-->
+  <div class="container">
+    <div id="fourthScreen">
+      <form>
+        <p class="text-center"> Contact Me.</p>
+        <div class="container">
+          <div class="form-row">
+            <div class="form-group col-md-6">
+              <label for="inputName4">Full Name</label>
+              <input type="email" class="form-control" id="inputName4" placeholder="Full-Name">
+            </div>
+            <div class="form-group col-md-6">
+              <label for="inputEmail4">email</label>
+              <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="inputAddress">Company</label>
+            <input type="text" class="form-control" id="inputAddress" placeholder="Company">
+          </div>
+          <div class="form-group">
+            <label for="exampleFormControlTextarea1">Message</label>
+            <textarea class="form-control transparent" id="exampleFormControlTextarea1 transparent" rows="3"
+              placeholder="Leave a Message."></textarea>
+            <div class="form-group">
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="gridCheck">
+                <label class="form-check-label" for="gridCheck">
+                </label>
+              </div>
+            </div>
+            <button type="submit" class="btn btn-primary black">Submit</button>
+          </div>
+        </div>
+    </div>
+    </form>
+
+    <!--Footer-->
+    <section id="lab_social_icon_footer">
+      <!-- Include Font Awesome Stylesheet in Header -->
+      <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+      <div class="container">
+        <div class="text-center center-block">
+          <a href="https://www.facebook.com/bootsnipp"><i id="social-fb"
+              class="fa fa-facebook-square fa-3x social"></i></a>
+          <a href="https://twitter.com/bootsnipp"><i id="social-tw" class="fa fa-twitter-square fa-3x social"></i></a>
+          <a href="https://plus.google.com/+Bootsnipp-page"><i id="social-gp"
+              class="fa fa-google-plus-square fa-3x social"></i></a>
+          <a href="mailto:#"><i id="social-em" class="fa fa-envelope-square fa-3x social"></i></a>
+        </div>
+      </div>
+    </section>
+
+
+
+    <!--My Js-->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript">
+      $(window).scroll(function () {
+        if ($(window).scrollTop() >= $(document).height() - $(window).height() -
+          50
+        ) {
+          $('.infinite').append('<div></div>');
+        }
+      });
+      
+
+    </script>
+
+    <!--jquery -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+      integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+
+    <!--Js File.-->
+    <script src="main.js"></script>
+
+
+</body>
+
+</html>

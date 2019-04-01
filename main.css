@@ -1,0 +1,117 @@
+body, html {
+    height: 100%;
+    background-image: url("https://images.pexels.com/photos/934062/pexels-photo-934062.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=500&w=900");
+    background-repeat:no-repeat;
+    font-family: 'Playfair Display SC', serif;
+
+  }
+  
+  .infinite{
+    width: 100%;
+    height:770px;
+  }
+  
+  
+  
+  
+  
+  .navbar-fixed{
+position: fixed;
+  }
+
+img {
+    border-radius: 50%;
+   position: relative;
+   left: 40%;
+   right: 40%;
+   margin-top: -40px;
+  }
+
+  .header {
+    padding: 60px;
+    text-align: center;
+    background: transparent;
+   }
+ 
+.name{
+  font-family: 'Fredericka the Great', cursive;
+  font-size: 60px;
+}
+  
+  .title {
+    color: grey;
+    font-size: 18px;
+  }
+  
+  button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+  .h2{
+text-align: center;
+  }
+  
+  
+  a {
+    text-decoration: none;
+    font-size: 22px;
+    color: black;
+  }
+  
+  button:hover, a:hover {
+    opacity: 0.7;
+  }
+
+  
+  .text-center{
+    font-family: 'Fredericka the Great', cursive;
+    font-size: 60px;
+    margin-top: 200px;
+    }
+
+    #secondScreen{
+      margin-top: 200px;
+     }
+
+    .aboutMe{
+      text-align: center;
+      text-transform: lowercase;
+      margin : 0px;
+      padding: 0px;
+      }
+
+.balloon{
+margin-right: 1px;
+width:100px;
+height: 100px;
+}
+
+  
+.card {
+  margin:10px;
+  margin-top: 30px;
+
+}
+  
+  form{
+    margin-top: 200px;
+  }
+
+  #thirdScreen{
+    margin-top: 200px;
+    background-color: rgb(112, 111, 111);
+    width:100%;
+    height: 100%
+ }
+
+ 
+ 
